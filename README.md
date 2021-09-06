@@ -13,3 +13,10 @@ Step4. pip install - torch, selenium, bs4, pororo
 Step5. Mecab 설치
 https://kogun82.tistory.com/173
 * Ref - Pip install python-mecab-ko 설치 시 /opt/conda/envs/rapids/bin/mecab-config 심볼릭 링크 후 설치 https://www.lesbonscomptes.com/recoll/pages/recoll-korean.ko.html
+
+Step6. Text 전처리 Package 설치
++ spacy 설치
+  + pip install spacy
+  + python -m spacy download en
++ PyKoSpacing 설치   
+  + pip install git+https://github.com/haven-jeon/PyKoSpacing.git
